@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  backend:
+    build: ./backend
+    container_name: ai-test1
+    ports:
+      - "8081:8080" # host:container -> host uses 8081
+    volumes:
+      - ./backend/data:/app/data
+    restart: unless-stopped
+  frontend:
+    build: ./frontend
+    container_name: ai-test2
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    restart: unless-stopped

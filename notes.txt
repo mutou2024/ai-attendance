@@ -1,0 +1,4 @@
+Notes:
+- This is a minimal scaffold intended for quick iteration and demoing the calendar & range endpoints.
+- Security (auth), i18n, timezone-correct grouping, and unit tests are NOT implemented yet — to be added next.
+- After you inspect/run locally I can add authentication (JWT), proper JPA entities, and more robust grouping logic.
