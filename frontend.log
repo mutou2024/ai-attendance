@@ -1,0 +1,15 @@
+ INFO  Accepting connections at http://localhost:80
+ HTTP  2025/12/15 14:41:09 ::1 GET /
+ HTTP  2025/12/15 14:41:09 ::1 Returned 200 in 61 ms
+ HTTP  2025/12/15 14:41:10 ::1 GET /assets/index-8R-AZHbd.js
+ HTTP  2025/12/15 14:41:10 ::1 Returned 304 in 27 ms
+ HTTP  2025/12/15 14:45:49 192.168.3.224 GET /
+ HTTP  2025/12/15 14:45:49 192.168.3.224 Returned 200 in 9 ms
+ HTTP  2025/12/15 14:45:49 192.168.3.224 GET /assets/index-8R-AZHbd.js
+ HTTP  2025/12/15 14:45:49 192.168.3.224 Returned 200 in 114 ms
+ HTTP  2025/12/15 14:45:50 192.168.3.224 GET /favicon.ico
+ HTTP  2025/12/15 14:45:50 192.168.3.224 Returned 200 in 3 ms
+ HTTP  2025/12/15 14:45:54 192.168.3.224 GET /
+ HTTP  2025/12/15 14:45:54 192.168.3.224 Returned 200 in 1 ms
+ HTTP  2025/12/15 14:45:54 192.168.3.224 GET /assets/index-8R-AZHbd.js
+ HTTP  2025/12/15 14:45:54 192.168.3.224 Returned 304 in 2 ms
